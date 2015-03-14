@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:gravity="left">
+
+    <Button
+        android:id="@+id/myButton"
+        android:text="@string/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300sp">
+        <TextView
+            android:id="@+id/textView"
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000FF"
+            android:textSize="15sp"
+            android:typeface="monospace"/>
+    </ScrollView>
+
+    <View
+        android:layout_width="1in"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1 inch"
+        android:gravity="left" />
+
+    <View
+        android:layout_width="72pt"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="72 points" />
+
+    <View
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="160 density-independent pixels" />
+
+    <View
+        android:layout_width="160px"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="160 pixels" />
+
+    <View
+        android:layout_width="100sp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="100 scaled pixels" />
+
+    <View
+        android:layout_width="10mm"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1 centimeter" />
+
+</LinearLayout>
